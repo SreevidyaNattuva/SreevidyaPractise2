@@ -21,7 +21,7 @@ var readlineSync = require('readline-sync');
          if(ans.toUpperCase() === answer.toUpperCase()){
              score = score+1;
            currentScore = score;
-          console.log("Correct!!!Obviously you are GOT fan "+ "Your Current Score is "+ currentScore);
+          console.log("Correct!!!Obviously you are GOT fan!! "+ "Your Current Score is "+ currentScore);
          }
         else{
             currentScore = score;
@@ -57,12 +57,4 @@ var readlineSync = require('readline-sync');
            console.log("Checkout highscores");
             for(var j=0;j<sampleHighscores.length;j++){
               console.log(sampleHighscores[j].name +"\t" + "\t"+"\t"+sampleHighscores[j].score);
-            // if(finalScore > (sampleHighscores[j].score))
-            // {
-            //   //var arrIndex = 0;
-            // console.log(sampleHighscores[j].name +"\t" + "\t"+"\t"+sampleHighscores[j].score);
-            // }
-            // else{
-            //   console.log(sampleHighscores[j].name +"\t" + "\t"+"\t"+sampleHighscores[j].score+"\t")
-            //   }
             }
